@@ -1,0 +1,283 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* my code start here */
+
+
+
+/* mStyle the top menu */
+.top-menu {
+    display: flex;
+    columns: 1;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: #000;
+    padding: 9px;
+    font-size: 14px;
+}
+
+.top-menu a:hover {
+    text-decoration: underline;
+}
+
+.top-menu img {
+    margin-top: 3px;
+    margin-right: 13px;
+    margin-left: 10px;
+    
+}
+
+.top-menu img:hover {
+    opacity: 0.7;
+}
+
+.top-menu button {
+    padding: 9px 20px;
+    color: #ffffff;
+    border: 1px;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+
+
+/* style content */
+.content {   
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px;
+    
+} 
+
+.content img {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+   
+    
+}
+
+.form-set {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 550px;
+    margin-left: 380px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 25px;
+    border-width: 1px;
+    
+    
+}
+
+.form-set:hover {
+    
+    border-width: 1px;
+    box-shadow: 1px 1px 5px lightgray;
+    
+    
+}
+
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin:8px 12px;  
+    cursor: pointer;  
+}
+
+
+.search button {
+    margin-left: 10px;
+    padding:10px 20px;
+    border-radius:5px;
+    border-style: hidden;
+    cursor: pointer; 
+
+}
+
+.search button:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-radius:5px;
+    border-color: rgb(136, 134, 134);
+
+}
+
+
+.ctext {
+    display: flex;
+    position:relative;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.ctext a {
+    text-decoration: none;
+    margin-right: 8px;
+    font-size: 15px;
+
+}
+
+.ctext a:hover {
+    text-decoration: underline;
+
+}
+
+
+/* style footer */
+
+.footer-main {margin-top: 218px;
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+
+.footer-p {
+    margin-left:  15px;
+    padding: 12px;
+    color: lightslategrey;
+    border-bottom: 1px;
+    border-width: 100%;
+    border-color:rgb(203, 206, 211) ;
+    
+}
+
+.footer {
+    padding: 12px;
+    
+
+}
+
+.footer1 a {
+    text-decoration: none;
+    color:lightslategrey;
+    padding-right: 12px;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color:lightslategrey;
+    padding-right: 12px;
+}
+.footer1 a:hover {
+    text-decoration: underline;
+   
+}
+
+.footer2 a:hover {
+    text-decoration: underline;
+    
+}
